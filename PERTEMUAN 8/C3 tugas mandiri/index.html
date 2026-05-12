@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas JavaScript</title>
+
+    <!-- Menghubungkan file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 id="judul">Form Registrasi</h1>
+
+        <p id="deskripsi">
+            Silakan isi data di bawah ini
+        </p>
+
+        <!-- FORM -->
+        <form id="formRegister">
+
+            <!-- INPUT NAMA -->
+            <label>Nama Lengkap</label>
+            <input 
+                type="text" 
+                id="nama" 
+                placeholder="Masukkan nama lengkap"
+            >
+
+            <small id="errorNama" class="error"></small>
+
+            <!-- PREVIEW KEYUP -->
+            <p id="previewNama"></p>
+
+            <!-- INPUT EMAIL -->
+            <label>Email</label>
+            <input 
+                type="text" 
+                id="email" 
+                placeholder="Masukkan email"
+            >
+
+            <small id="errorEmail" class="error"></small>
+
+            <!-- INPUT PASSWORD -->
+            <label>Password</label>
+            <input 
+                type="password" 
+                id="password" 
+                placeholder="Minimal 8 karakter"
+            >
+
+            <small id="errorPassword" class="error"></small>
+
+            <!-- BUTTON -->
+            <button type="submit" id="btnDaftar">
+                Daftar
+            </button>
+
+        </form>
+
+        <!-- HASIL -->
+        <p id="hasil"></p>
+
+        <!-- TOMBOL DARK MODE -->
+        <button id="btnDarkMode">
+            Dark Mode
+        </button>
+
+    </div>
+
+    <!-- Menghubungkan file JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
