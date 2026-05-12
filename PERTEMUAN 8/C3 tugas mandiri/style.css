@@ -1,0 +1,94 @@
+/* Mengatur body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container utama */
+.container {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    color: #b60202;
+}
+
+/* Deskripsi */
+#deskripsi {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Label */
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Tombol */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover tombol */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Pesan error */
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* Hasil berhasil */
+#hasil {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Dark mode */
+.dark {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Container saat dark mode */
+.dark .container {
+    background-color: #333;
+}
+
+/* Input saat dark mode */
+.dark input {
+    background-color: #555;
+    color: white;
+    border: 1px solid #777;
+}
